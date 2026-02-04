@@ -8,6 +8,10 @@
   "supports": "!uwp",
   "dependencies": [
     {
+      "name": "alsa",
+      "platform": "linux"
+    },
+    {
       "name": "jack2",
       "platform": "!ios & !osx & !windows"
     },

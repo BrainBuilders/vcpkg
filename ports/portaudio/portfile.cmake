@@ -37,7 +37,8 @@ else()
     vcpkg_list(APPEND options
         -DPA_USE_JACK=ON
         -DCMAKE_REQUIRE_FIND_PACKAGE_Jack=ON
-        -DPA_USE_ALSA=OFF
+        -DPA_USE_ALSA=ON
+        -DCMAKE_REQUIRE_FIND_PACKAGE_ALSA=ON
     )
 endif()
 
